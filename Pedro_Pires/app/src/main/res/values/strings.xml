@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Pedro_Pires</string>
+    <string name="monitoramento">Monitoramento Hapvida</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="acessar">Acessar</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="nomeIdoso">Nome do(a) Idoso(a)</string>
+    <string name="idadeIdoso">Idade do(a) Idoso(a)</string>
+    <string name="endereco">Endereço</string>
+    <string name="nomeResponsavel">Nome do Responsável</string>
+    <string name="telefoneResponsavel">Telefone do Responsável</string>
+    <string name="emailResponsavel">E-mail do Responsável</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="bemvindo">Bem-vindo(a)</string>
+    <string name="escolha">Escolha o que deseja acessar:</string>
+    <string name="dados">Acessar lista de dados</string>
+    <string name="cadastrardados">Cadastrar dados de pacientes</string>
+    <string name="sair">Sair</string>
+</resources>

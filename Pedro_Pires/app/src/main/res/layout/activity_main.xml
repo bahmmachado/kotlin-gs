@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pastelorange"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/monitoramento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/monitoramento"
+        android:textSize="@dimen/quarenta"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:layout_marginTop="@dimen/cem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/usuario"
+        android:textAlignment="center"
+        android:backgroundTint="@color/orange"
+        android:textColorHint="@color/yellow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/vinte"
+        android:hint="@string/senha"
+        android:textAlignment="center"
+        android:backgroundTint="@color/orange"
+        android:textColorHint="@color/yellow"
+        android:inputType="textPassword"
+        app:layout_constraintTop_toBottomOf="@+id/usuario"
+        />
+
+    <Button
+        android:id="@+id/btnAcessar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/cem"
+        android:text="@string/acessar"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/yellow"
+        app:layout_constraintTop_toBottomOf="@+id/senha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
